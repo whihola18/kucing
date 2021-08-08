@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas pertemuan 5</title>
+</head>
+<body>
+
+	<center>
+		
+		<h1>Program Kasir</h1>
+
+		<table>
+			<tr>
+				<td><label>item Barang</label></td>
+				<td>:</td>
+				<td>
+					<select id="item">
+						<option value="175000">kaos</option>
+						<option value="350000">Sepatu</option>
+						<option value="50000">Dasi</option>
+					</select>
+			</td>
+			</tr>
+			<tr>
+				<td><label>Jumlah Barang</label></td>
+				<td>:</td>
+				<td><input type="number" id="jumlah"></td>
+			</tr>
+
+			<tr>
+				<td colspan="3" align="center"> === CETAK ===</td>
+			</tr>
+			<tr>
+				<td><label>Harga Barang</label></td>
+				<td>:</td>
+				<td><input type="number" id="harga" disabled></td>
+			</tr>
+			<tr>
+				<td><label>Total Harga</label></td>
+				<td>:</td>
+				<td><input type="number" id="total" disabled></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>
+					<button onclick="proses();">Proses</button>
+					<button>Reset</button>
+				</td>
+			</tr>
+		</table>
+	</center>
+	<script src="script.js"></script>
+</body>
+</html>
